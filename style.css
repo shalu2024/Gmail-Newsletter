@@ -1,0 +1,47 @@
+body{
+    background : #2b7178 ;
+}
+form {
+    border: 10px solid #f1f1f1;
+}
+
+.container {
+    padding: 2px;
+    background-color: white;
+    color: #2b7178;
+    text-align: center;
+    font-size: 2rem;
+}
+.container1{
+    padding: 2px;
+    background-color: white;
+}
+.container2 input{
+    padding: 2px;
+    background-color: #2b7178;
+    color: #2b7178;
+    font-size: 1rem;
+}
+input[type=text],
+input[type=submit] {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type=checkbox] {
+    margin-top: 30px;
+}
+
+input[type=submit] {
+    background-color: #17252a;
+    color: #2b7178;
+    border: none;
+}
+
+input[type=submit]:hover {
+    opacity: 1;
+}
